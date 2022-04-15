@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#fff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:id="@+id/touxiang_xuanze"
+            android:text="从相册中选择"
+            android:textSize="16sp"
+            android:textColor="#f00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#f7f7f7"></TextView>
+
+        <!--   android:foreground="?attr/selectableItemBackground"
+        设置此属性是为了TextView设置点击事件后有点击效果-->
+        <TextView
+            android:id="@+id/touxiang_cancel"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:foreground="?attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="取消"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

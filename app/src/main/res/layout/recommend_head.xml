@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="12dp"
+    android:paddingLeft="6dp"
+    android:paddingBottom="12dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最热"
+        android:background="@xml/textview_bg"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textColor="#FF3366"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="好评"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textColor="#999999"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"></TextView>
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingLeft="6dp"
+android:paddingTop="12dp"
+android:paddingBottom="12dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center_horizontal"
+    android:text="情感"
+    android:textColor="#999999"></TextView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="欢乐"
+    android:gravity="center_horizontal"
+    android:textColor="#999999"></TextView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="恐怖"
+    android:gravity="center_horizontal"
+    android:textColor="#999999"></TextView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="推理"
+    android:gravity="center_horizontal"
+    android:textColor="#999999"></TextView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="阵营"
+    android:gravity="center_horizontal"
+    android:textColor="#999999"></TextView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="6"></TextView>
+</LinearLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingTop="12dp"
+android:paddingLeft="6dp"
+android:paddingBottom="12dp"
+android:orientation="horizontal">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="五人"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:textColor="#999999"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="六人"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:textColor="#999999"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="七人"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:textColor="#999999"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="八人"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:textColor="#999999"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="九人"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:textColor="#999999"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="十人"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:textColor="#999999"></TextView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="4"></TextView>
+</LinearLayout>
+</LinearLayout>

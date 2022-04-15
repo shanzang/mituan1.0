@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mituan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mituan">
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/textview_bg" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MessageActivity">
+
+        </activity>
+        <activity android:name=".ScriptActivity">
+
+        </activity>
+        <activity android:name=".PlayedActvity">
+
+        </activity>
+        <activity android:name=".MesDetailsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        </activity>
+        <activity android:name=".GameNoticeActivity">
+
+        </activity>
+        <activity android:name=".SearchScript">
+
+        </activity>
+        <activity android:name=".SearchShopActivity">
+
+        </activity>
+        <activity android:name=".SearchFriendActivity"></activity>
+        <activity android:name=".FansActivity"></activity>
+        <activity android:name=".AttentionActivity"></activity>
+        <activity android:name=".TeamAssistantActivity"></activity>
+        <activity android:name=".TeamDetalsActivity"></activity>
+
+        <activity android:name=".SquareDetailsActivity"
+                  android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+
+        <activity android:name=".SquareReleaseActivity"></activity>
+        <activity android:name=".AdviceActivity"></activity>
+        <activity android:name=".UserIntroduceActivity"></activity>
+        <activity android:name=".DongTaiActivity"
+            android:exported="true"></activity>
+        <activity android:name=".EvaluationActivity"></activity>
+        <activity android:name=".WriteEvaluationActivity"></activity>
+        <activity android:name=".SetNameActivity"></activity>
+        <activity android:name=".SetAutoGraphActivity"></activity>
+        <activity android:name=".WantPlayActivity"></activity>
+        <activity android:name=".AddressChoiceActivity"></activity>
+    </application>
+
+</manifest>
